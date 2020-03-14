@@ -21,6 +21,7 @@ var TextTransmitter = (function() {
             onFinish();
             return;
         }
+		payload += " ";
         transmit.transmit(Quiet.str2ab(payload));
     };
 
